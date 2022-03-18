@@ -17,9 +17,12 @@ body{
 }
 
 header{
-  height: 50px;
-  background-color: red;
+  height: 36px;
+  width: 100%;
+  position: fixed;
+  background-color: black;
   text-align: right;
+  line-height: 1.5;
 }
 
 main{
@@ -33,13 +36,24 @@ footer{
   height: 80px;
   background-color: #222222;
   color: white;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 
 
 /* HEADER */
 
-
+.bhead{
+  background-color: #4A4A4A;
+  color: white;
+  border-radius: 25px;
+  padding: 4px;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+}
 
 /* MAIN */
 
@@ -61,11 +75,6 @@ footer{
 }
 
 /* FOOTER */
-
-footer{
-  align-items: center;
-  text-align: center;
-}
 
 footer ul{
   list-style: none;
