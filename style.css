@@ -8,6 +8,10 @@ body{
   font-family: 'Open Sans', sans-serif;
 }
 
+#green{
+  color: green;
+}
+
 .flex{
   display: flex;
 }
