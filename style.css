@@ -34,6 +34,7 @@ main{
   margin: auto;
   padding: 80px;
   background-color: black;
+  height: calc(100vh - 36px - 80px);
 }
 
 footer{
@@ -43,7 +44,11 @@ footer{
   text-align: center;
   align-items: center;
   justify-content: center;
-  flex-shrink: 0;
+  z-index: 2;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 
@@ -88,10 +93,15 @@ footer ul{
 footer ul li{
   text-decoration: none;
   padding: 10px;
+  
+}
+
+footer ul p{
+  font-size: 15px;
 }
 
 footer ul i{
-  font-size: 25px;
+  font-size: 18px;
 }
 
 .f-right{
