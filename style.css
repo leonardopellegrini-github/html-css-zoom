@@ -1,0 +1,41 @@
+*{
+  padding: 0;
+  margin: 0 auto;
+  display: border-box;
+}
+
+.flex{
+  display: flexbox;
+}
+
+header{
+  height: 50px;
+  background-color: red;
+  text-align: right;
+}
+
+main{
+  width: 80%;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  background-color: black;
+}
+
+footer{
+  height: 150px;
+  background-color: #222222;
+}
+
+
+
+/* HEADER */
+
+#bottonihead{
+  justify-content: flex-end;
+}
+
+/* MAIN */
+
+
+/* FOOTER */
+
